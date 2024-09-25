@@ -3,7 +3,7 @@ import random
 from fun import get_voteless_combination, update_elo
 import pandas as pd
 
-st.set_page_config(initial_sidebar_state="expanded")
+st.set_page_config(initial_sidebar_state="collapsed")
 
 st.title('Namen')
 
