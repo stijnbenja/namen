@@ -22,7 +22,7 @@ if 'namen' not in st.session_state:
     st.session_state['choices'] = [
         
         ]
-    st.session_state['active_combi'] = get_voteless_combination(namen=st.session_state['namen'],choices=st.session_state['choices'])
+    st.session_state['active_combi'] = random.choice(namen), random.choice(namen)
      
 st.write(f'Keuze {len(st.session_state["choices"])+1}') 
     
